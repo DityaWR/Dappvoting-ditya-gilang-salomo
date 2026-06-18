@@ -1,0 +1,25 @@
+.vote-panel {
+  text-align: center;
+}
+.vote-panel--voted {
+  border-color: rgba(16,185,129,0.3);
+  background: rgba(16,185,129,0.05);
+}
+.vote-panel--info {
+  background: rgba(255,255,255,0.02);
+}
+.vote-panel__icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.vote-panel__title {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.vote-panel__highlight {
+  color: var(--color-primary);
+}
+.vote-panel__notice {
+  font-size: 0.75rem;
+  color: var(--color-text-dim);
+}

@@ -1,0 +1,4 @@
+- [x] Inspect current scripts/interact.js output formatting
+- [x] Plan: hide contract address in interact.js (and optionally deploy.js)
+- [x] Confirm with user and implement changes
+- [ ] Run hardhat interact script to verify address is hidden

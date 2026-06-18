@@ -1,0 +1,31 @@
+.admin-panel {
+  border-color: rgba(245,158,11,0.2);
+  background: rgba(245,158,11,0.03);
+}
+.admin-panel__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.admin-panel__badge {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--color-warning);
+}
+.admin-section {
+  margin-top: 1rem;
+}
+.admin-section__title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.6rem;
+}
+.admin-row {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+.admin-row .input { flex: 1; min-width: 140px; }

@@ -1,0 +1,181 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* ── Header ── */
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(10,11,15,0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--color-border);
+}
+.app-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.app-header__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.app-header__logo {
+  font-size: 1.8rem;
+  line-height: 1;
+}
+.app-header__title {
+  font-size: 1.3rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+}
+.app-header__sub {
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+/* ── Network Warning ── */
+.network-warning {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.85rem 1.25rem;
+  background: rgba(239,68,68,0.1);
+  border-bottom: 1px solid rgba(239,68,68,0.25);
+  color: var(--color-text);
+}
+.network-warning__icon { font-size: 1.2rem; flex-shrink: 0; }
+.network-warning p     { font-size: 0.85rem; color: var(--color-text-muted); margin-top: 0.15rem; }
+
+/* ── Main Layout ── */
+.app-main { padding: 2rem 1.25rem 4rem; }
+
+/* ── Hero ── */
+.hero {
+  max-width: 680px;
+  margin: 4rem auto;
+  text-align: center;
+  position: relative;
+}
+.hero__glow {
+  position: absolute;
+  inset: -60px;
+  background: radial-gradient(ellipse 60% 40% at 50% 50%, rgba(99,102,241,0.12), transparent 70%);
+  pointer-events: none;
+}
+.hero__title {
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  font-weight: 900;
+  background: linear-gradient(135deg, #fff 40%, var(--color-primary), var(--color-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1rem;
+  line-height: 1.15;
+}
+.hero__desc {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+.hero__cta { margin-bottom: 2.5rem; }
+.hero__features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.hero__feature {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.9rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+}
+
+/* ── App Grid ── */
+.app-grid {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+.app-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* ── Section Header ── */
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+/* ── Recent Activity ── */
+.activity-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.activity-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+.activity-item:last-child { border-bottom: none; }
+.activity-item__voter {
+  font-family: 'Courier New', monospace;
+  font-size: 0.8rem;
+  color: var(--color-primary);
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.activity-item__action { font-size: 0.82rem; color: var(--color-text-muted); flex: 1; }
+.activity-item__block  { flex-shrink: 0; }
+
+/* ── Footer ── */
+.app-footer {
+  padding: 1.5rem;
+  border-top: 1px solid var(--color-border);
+  margin-top: 2rem;
+}
+
+/* ── Responsive ── */
+@media (max-width: 900px) {
+  .app-grid { grid-template-columns: 1fr; }
+  .app-col--left { order: 2; }
+  .app-col--right { order: 1; }
+}
+@media (max-width: 520px) {
+  .app-header__wallet { width: 100%; }
+  .app-main { padding: 1.5rem 1rem 3rem; }
+}

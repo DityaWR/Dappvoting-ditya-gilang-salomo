@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\project-smart-contract-fix\\project-smart-contract-fix\\contracts\\SimpleVoting.sol": {
+      "lastModificationDate": 1781750878942,
+      "contentHash": "d080bf09c52d8257414862d3d45d0bfc",
+      "sourceName": "contracts/SimpleVoting.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "SimpleVoting"
+      ]
+    }
+  }
+}
