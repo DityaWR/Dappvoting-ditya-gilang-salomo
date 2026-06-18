@@ -244,6 +244,10 @@ Buka browser: **http://localhost:5173**
 
 <img width="485" height="747" alt="WhatsApp Image 2026-06-18 at 23 49 37" src="https://github.com/user-attachments/assets/329ee0ff-8571-4e14-a07c-e953aacf7694" />
 
+<img width="1600" height="753" alt="WhatsApp Image 2026-06-19 at 00 18 45" src="https://github.com/user-attachments/assets/f1af79b7-7ec2-4175-90c1-b651b939d557" />
+
+<img width="1600" height="822" alt="WhatsApp Image 2026-06-19 at 00 23 22" src="https://github.com/user-attachments/assets/b8c67068-da40-4243-84b6-4b7ec62faef9" />
+
 
 ---
 
