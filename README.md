@@ -152,7 +152,7 @@ Compiled 1 Solidity file successfully
 32 passing
 ```
 
-> 📸 **[Tambahkan screenshot hasil test di sini]**
+<img width="802" height="875" alt="image" src="https://github.com/user-attachments/assets/fecc55d4-96ce-4084-af12-62065e0350e5" />
 
 ---
 
@@ -166,7 +166,7 @@ npx hardhat node
 
 Node akan berjalan di `http://127.0.0.1:8545` (Chain ID: 31337).
 
-> 📸 **[Tambahkan screenshot Hardhat node di sini]**
+<img width="523" height="41" alt="image" src="https://github.com/user-attachments/assets/1a15e98c-1e1c-45d3-bfe9-816fcb9f28eb" />
 
 ---
 
@@ -185,7 +185,7 @@ Contract address : 0x5FbDB2315678afecb367f032d93F642f64180aa3
 ✅ Voting session started (deadline: 3600s, quorum: 2)
 ```
 
-> 📸 **[Tambahkan screenshot hasil deploy di sini]**
+<img width="606" height="655" alt="image" src="https://github.com/user-attachments/assets/8e5e6e17-234c-482a-ad05-c9750dd557bb" />
 
 ---
 
@@ -210,7 +210,9 @@ export const CONTRACT_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3"; //
    | Chain ID | `31337` |
    | Currency Symbol | `ETH` |
 
-2. Import akun: copy **Private Key** dari Terminal 1 → MetaMask → **Import Account**
+<img width="770" height="588" alt="image" src="https://github.com/user-attachments/assets/b1dabda6-fb5e-4e9d-9541-66466c387310" />
+
+3. Import akun: copy **Private Key** dari Terminal 1 → MetaMask → **Import Account**
 
 > 📸 **[Tambahkan screenshot konfigurasi MetaMask di sini]**
 
