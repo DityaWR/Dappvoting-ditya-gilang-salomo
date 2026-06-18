@@ -27,7 +27,7 @@
 |------|-----|------------|
 | 🧑‍💻 **Gilang Raya Kurniawan** | 5027220145 | Smart Contract (Solidity, Testing, Deploy) |
 | 🧑‍💻 **Ditya Wahyu Ramadhan** | 5027221051 | Frontend UI/UX (React, Components, Styling) |
-| 🧑‍💻 **[Nama Anggota 3]** | [NRP] | Integrasi Web3 (ethers.js, Wallet, Read/Write) |
+| 🧑‍💻 **Salomo** | 5027221063 | Integrasi Web3 (ethers.js, Wallet, Read/Write) |
 
 ---
 
@@ -308,7 +308,7 @@ MIT License
 
 <div align="center">
 
-Made with ❤️ by **Gilang Raya Kurniawan**, **Ditya Wahyu Ramadhan**, & **[Anggota 3]**
+Made with ❤️ by **Gilang Raya Kurniawan**, **Ditya Wahyu Ramadhan**, & **Salomo**
 
 *Teknik Informatika — Institut Teknologi Sepuluh Nopember (ITS)*
 
