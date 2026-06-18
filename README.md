@@ -1,4 +1,4 @@
-# 🗳️ VoteChain — Voting dApp (Project 3)
+<img width="485" height="747" alt="WhatsApp Image 2026-06-18 at 23 49 37" src="https://github.com/user-attachments/assets/c93311ae-cad3-4068-9f85-3e7916a555a6" /># 🗳️ VoteChain — Voting dApp (Project 3)
 
 <div align="center">
 
@@ -242,7 +242,8 @@ Buka browser: **http://localhost:5173**
 
 <img width="686" height="495" alt="WhatsApp Image 2026-06-18 at 23 48 35" src="https://github.com/user-attachments/assets/1fd27aea-23ae-40f0-91f7-1fc0399644b4" />
 
-![Uploading WhatsApp Image 2026-06-18 at 23.49.37.jpeg…]()
+<img width="485" height="747" alt="WhatsApp Image 2026-06-18 at 23 49 37" src="https://github.com/user-attachments/assets/329ee0ff-8571-4e14-a07c-e953aacf7694" />
+
 
 ---
 
