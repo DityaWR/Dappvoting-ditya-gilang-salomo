@@ -214,7 +214,7 @@ export const CONTRACT_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3"; //
 
 3. Import akun: copy **Private Key** dari Terminal 1 → MetaMask → **Import Account**
 
-> 📸 **[Tambahkan screenshot konfigurasi MetaMask di sini]**
+<img width="1920" height="1080" alt="Screenshot (809)" src="https://github.com/user-attachments/assets/8adcde7f-ea18-4d04-89d0-1a66859b1983" />
 
 ---
 
@@ -227,7 +227,7 @@ npm run dev
 
 Buka browser: **http://localhost:5173**
 
-> 📸 **[Tambahkan screenshot tampilan dApp di sini]**
+<img width="1919" height="945" alt="Screenshot 2026-06-18 224845" src="https://github.com/user-attachments/assets/92cd4bc0-4fc3-48fa-91f9-1dbae47e1315" />
 
 ---
 
@@ -238,7 +238,11 @@ Buka browser: **http://localhost:5173**
 3. Klik kandidat → klik **Vote** → konfirmasi di MetaMask
 4. Lihat hasil update secara real-time
 
-> 📸 **[Tambahkan screenshot proses voting di sini]**
+<img width="1600" height="811" alt="WhatsApp Image 2026-06-18 at 23 48 26" src="https://github.com/user-attachments/assets/8a5e8b4f-91f2-4540-ae21-ce4a1c5c3dcb" />
+
+<img width="686" height="495" alt="WhatsApp Image 2026-06-18 at 23 48 35" src="https://github.com/user-attachments/assets/1fd27aea-23ae-40f0-91f7-1fc0399644b4" />
+
+![Uploading WhatsApp Image 2026-06-18 at 23.49.37.jpeg…]()
 
 ---
 
